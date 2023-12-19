@@ -22,13 +22,15 @@
 	<div class="div_container1">
 
 	<div class="card">
-		<div class="card__content">1</div>
+	<a href="admin/admin_login.php	">
+		<div class="card__content">ADMIN</div>
+	</a> 	
 	</div>
     <div class="card">
-		<div class="card__content">2</div>
+		<div class="card__content">DOCTOR</div>
 	</div>
 	<div class="card">
-		<div class="card__content">3</div>
+		<div class="card__content">POS</div>
 	</div>
 
 
