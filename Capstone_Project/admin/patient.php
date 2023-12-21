@@ -15,7 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	</head>
 <body>
-	<div class = "navbar navbar-default navbar-fixed-top">
+<div class = "navbar navbar-default navbar-fixed-top">
 		<img src = "../images/logo.png" style = "float:left;" height = "55px" /><label class = "navbar-brand">LAFUENTE MEDICAL CLINIC Patient Record Management Information System - Padre Burgos</label>
 			<?php
 				$conn = new mysqli("localhost", "root", "", "capstonedbdraft") or die(mysqli_error());
@@ -242,7 +242,7 @@
 							<td><?php echo $fetch['region']." ".$fetch['province']." ".$fetch['city']." ".$fetch['barangay']   ?></td>
 							<td><?php echo $fetch['civil_status']?></td>
 							<td><?php echo $fetch['record_date']?></td>
-							<td><center><a href = "complaints.php?id=<?php echo $fetch['itr_no']?>&lastname=<?php echo $fetch['lastname']?>" class = "btn btn-sm btn-info">Complaints <span class = "badge"><?php echo $f['total']?></span></a> 
+							<td><center><a href = "complaints.php?id=<?php echo $fetch['itr_no']?>&lastname=<?php echo $fetch['lastname']?>" class = "btn btn-sm btn-info">Complaints <span class = "badge"><?php echo $f['total']?></span></a><br><br> 
 							<a href = "edit_patient.php?id=<?php echo $fetch['itr_no']?>&lastname=<?php echo $fetch['lastname']?>" class = "btn btn-sm btn-warning"><span class = "glyphicon glyphicon-pencil"></span> Update</a></center></td>
 						</tr>
 					<?php

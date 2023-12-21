@@ -32,6 +32,14 @@
 						<li><a href = "item_list.php"><i class = "glyphicon glyphicon-cog"></i> Item List</a></li>
 					</ul>
 				</li>
+				<li><a href = ""><i class = "glyphicon glyphicon-user"></i> Manage Product</a>
+					<ul>
+						<li><a href = "patient.php"><i class = "glyphicon glyphicon-user"></i> Product Record</a></li>
+						<li><a href = "appointment.php"><i class = "glyphicon glyphicon-cog"></i> Product</a></li>
+					</ul>
+				</li>
+				<li><a href = "dashboard.php"><i class = "glyphicon glyphicon-home"></i> Dashboard</a></li>
+
 				<li><a href = ""><i class = "glyphicon glyphicon-cog"></i> Sales</a>
 					<ul>
 					<li><a href = "#"><i class = "glyphicon glyphicon-cog"></i> Sales</a></li>

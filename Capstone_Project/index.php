@@ -27,7 +27,9 @@
 	</a> 	
 	</div>
     <div class="card">
+	<a href="doctor/doctor_login.php	">
 		<div class="card__content">DOCTOR</div>
+	</a> 
 	</div>
 	<div class="card">
 		<div class="card__content">POS</div>
