@@ -50,6 +50,6 @@
 	</div>
 </body>
 <?php
-	include("../admin/script.php");
+	include("../administrator/script.php");
 ?>
 </html>

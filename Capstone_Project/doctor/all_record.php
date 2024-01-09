@@ -42,7 +42,7 @@
 				<center><label>URINALYSIS</label></center>
 			</div>
 		</div>
-		<a style = "float:right; margin-top:-4px;" href = "view_urinalysis_record.php?itr_no=<?php echo $_GET['itr_no']?>" class = "btn btn-info"><span class = "glyphicon glyphicon-hand-right"></span> BACK</a> 
+		<a style = "float:right; margin-top:-4px;" href = "medical_record.php?itr_no=<?php echo $_GET['itr_no']?>" class = "btn btn-info"><span class = "glyphicon glyphicon-hand-right"></span> BACK</a> 
 		<br />
 		<br />
 		<div class = "panel panel-primary">

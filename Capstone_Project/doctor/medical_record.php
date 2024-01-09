@@ -42,7 +42,7 @@
 				<center><label> RECORD LIST</label></center>
 			</div>
 		</div>
-		<a style = "float:right; margin-top:-4px;" href = "urinalysis.php" class = "btn btn-info"><span class = "glyphicon glyphicon-hand-right"></span> BACK</a> 
+		<a style = "float:right; margin-top:-4px;" href = "index.php" class = "btn btn-info"><span class = "glyphicon glyphicon-hand-right"></span> BACK</a> 
 		<br />
 		<br />
 		<div class = "panel panel-primary">
